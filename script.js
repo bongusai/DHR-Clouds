@@ -60,7 +60,7 @@ const images = [
     { src: 'assets/AboutUs-rotation-cloud.jpg', caption: 'Scalable cloud solutions for your business growth.' },
     { src: 'assets/AboutUs-rotation-cybersecurity.jpg', caption: 'Advanced cybersecurity for robust digital protection.' },
     { src: 'assets/AboutUs-rotation-ai.jpg', caption: 'AI-driven innovation for transformative business solutions.' },
-    { src: 'https://www.aiwire.net/wp-content/uploads/2022/01/autonomous-decision-making-AI-shutterstock-1987947446_700x.png', caption: 'AI-powered analytics for intelligent decision-making.' }
+    { src: 'assets/AboutUS-rotation-ai-deciation-making.png', caption: 'AI-powered analytics for intelligent decision-making.' }
 ];
 
         const container = document.getElementById('rotatingContainer');
