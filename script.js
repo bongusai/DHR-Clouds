@@ -56,13 +56,12 @@ document.addEventListener('DOMContentLoaded', () => {
             wrap: true
         });
 
-        // Rotating Images Logic
-        const images = [
-            { src: 'assets/AboutUs-rotation-cloud.jpg', caption: 'Scalable cloud solutions for your business growth.' },
-            { src: 'assets/ui&ux-banner2.webp', caption: 'Intuitive UI/UX design for seamless user experiences.' },
-            { src: 'assets/AboutUs-rotation-digital-marketing.png', caption: 'Data-driven marketing to boost your brand.' },
-            { src: 'assets/AboutUS-rotation-dataanalytics.jpg', caption: 'Powerful analytics to drive informed decisions.' }
-        ];
+const images = [
+    { src: 'assets/AboutUs-rotation-cloud.jpg', caption: 'Scalable cloud solutions for your business growth.' },
+    { src: 'assets/AboutUs-rotation-cybersecurity.jpg', caption: 'Advanced cybersecurity for robust digital protection.' },
+    { src: 'assets/AboutUs-rotation-ai.jpg', caption: 'AI-driven innovation for transformative business solutions.' },
+    { src: 'assets/AboutUs-rotation-dataanalytics.jpg', caption: 'AI-powered analytics for intelligent decision-making.' }
+];
 
         const container = document.getElementById('rotatingContainer');
         let currentState = [
