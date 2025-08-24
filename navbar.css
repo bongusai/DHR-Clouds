@@ -74,7 +74,7 @@
 /* Active Link (Purple) */
 .navbar-nav .nav-link.active {
     color: rgb(204, 128, 37) !important;
-    font-weight: 900;
+    font-weight: 900 !important;
 }
 
 .navbar-nav .nav-link.active::after {
