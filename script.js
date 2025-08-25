@@ -35,7 +35,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
 
 // Set active link based on current page
 document.addEventListener('DOMContentLoaded', () => {
-    const currentPage = window.location.pathname.split('/').pop() || 'Home.html';
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
     document.querySelectorAll('.nav-link').forEach(link => {
         if (link.getAttribute('href') === currentPage) {
             link.classList.add('active');
