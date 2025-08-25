@@ -35,14 +35,15 @@ document.querySelectorAll('.nav-link').forEach(link => {
 
 // Set active link based on current page
 document.addEventListener('DOMContentLoaded', () => {
-    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-    document.querySelectorAll('.nav-link').forEach(link => {
-        if (link.getAttribute('href') === currentPage) {
-            link.classList.add('active');
-        } else {
-            link.classList.remove('active');
-        }
-    });
+  const currentPage = window.location.pathname.split('/').pop().replace('.html', '') || 'index';
+document.querySelectorAll('.nav-link').forEach(link => {
+    const href = link.getAttribute('href').replace('.html', '');
+    if (href === currentPage) {
+        link.classList.add('active');
+    } else {
+        link.classList.remove('active');
+    }
+});
 });
 
 
